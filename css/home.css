@@ -1,0 +1,215 @@
+.introduction-container1 {
+  display: flex;
+  flex: 1;
+  background-color: #c179b9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  row-gap: 20px;
+}
+.introduction {
+  background-color: #eeb4b3;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 100px;
+  user-select: none;
+}
+.introduction2 {
+  background-color: #eeb4b3;
+  position: relative;
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 30px;
+  user-select: none;
+}
+.introduction-span {
+  background-color: #eeb4b3;
+  border: none;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+.introduction-span:focus {
+  text-decoration: underline;
+  border-radius: 5px;
+  background-color: #c179b9;
+}
+
+/* stickers */
+.secrets-sticker1 {
+  position: absolute;
+  top: -5px; left: -20px; 
+}
+.secrets-sticker1 img{
+  height: 60px;
+  width: 60px;
+  transform: scaleX(-1);
+}
+
+/* brochure */
+.brochure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px;
+}
+
+.brochure,
+.brochure-middle,
+.brochure-insert {
+  display: flex;
+  position: relative;
+  background-color: #502274;
+  align-items: left;
+  
+  border-radius: 15px;
+  border: 5px solid #c179b9;
+  width: 80%;
+  padding: 25px;
+}
+.brochure-middle {
+  margin: 50px 0;
+}
+.brochure-insert {
+  margin-top: 50px;
+}
+
+/* description container */
+.brochure-description-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background-color: #eeb4b3;
+  border-radius: 15px;
+  flex: 1;
+  font-size: 35px;
+}
+
+/* description */
+.brochure-description
+{
+  display: flex;
+  margin: 15px 15px 0 15px;
+  align-items: center;
+  justify-content: left;
+  user-select: none;
+}
+
+.brochure-description-link {
+  display: flex;
+  margin: 15px 15px 5px 15px;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.brochure-description-link:hover > .description-logo{
+  height: 50px;
+  width: 50px;
+}
+.brochure-description-link:hover > .description-description {
+  font-size: 50px;
+}
+
+@media (max-width: 400px) {
+  .brochure-description-container{
+    flex-direction: column ;
+    align-items: center;
+  }
+  .brochure-description,
+  .brochure-description-link {
+    font-size: 0;
+  }
+  .description-logo {
+    width: 100%;
+  }
+  .brochure-description-link:hover > .description-description{
+    font-size: 0;
+  }
+}
+
+.description-logo {
+  margin-right: 10px;
+  background-color: #502274;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 15px;
+  transition: height .15s, width .15s;
+  object-fit: contain;
+}
+.description-description {
+  transition: font-size .15s;
+}
+
+
+/* brochure icon */
+.brochure-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: #502274;
+  border: 10px solid #c179b9;
+  transition: width 0.15s, height 0.15s;
+}
+.brochure-icon img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+.brochure-icon:hover
+{
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  background-color: #a42cd6;
+}
+.brochure-icon:hover .brochure-tooltip {
+  opacity: 1;
+}
+.brochure-tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 50px;
+  left: 110px;
+  position: absolute;
+  background-color: #a42cd6;
+  border: 5px solid #c179b9;
+  border-radius: 10px;
+  height: 80px;
+  width: 200px;
+  box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+/* main art */
+.main-art-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  position: relative;
+  width: 80% ;
+  margin: 50px 20px 0 20px;
+  background-color: #c179b9;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 10px;
+}
+.main-art {
+  width: 100%;
+  height: 100%;
+}

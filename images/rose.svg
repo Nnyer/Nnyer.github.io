@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="240pt"
+    height="240pt"
+    viewBox="0 0 240 240">
+<defs>
+  <linearGradient id="gradient0" gradientUnits="objectBoundingBox" x1="0.0912819000164189" y1="0.0886930739052175" x2="0.857600235974387" y2="0.957083996497475" spreadMethod="pad">
+   <stop stop-color="#f674bb" offset="0" stop-opacity="1"/>
+   <stop stop-color="#fb4c7f" offset="0.5846" stop-opacity="1"/>
+   <stop stop-color="#ff001b" offset="1" stop-opacity="1"/>
+  </linearGradient>
+  <radialGradient id="gradient1" gradientUnits="objectBoundingBox" cx="0" cy="0" fx="0" fy="0" r="1.4142135623731" spreadMethod="pad">
+   <stop stop-color="#4eff00" offset="0" stop-opacity="1"/>
+   <stop stop-color="#64c864" offset="0.6308" stop-opacity="1"/>
+  </radialGradient>
+  <radialGradient id="gradient2" gradientUnits="objectBoundingBox" cx="0" cy="0" fx="0" fy="0" r="1.4142135623731" spreadMethod="pad">
+   <stop stop-color="#4eff00" offset="0" stop-opacity="1"/>
+   <stop stop-color="#64c864" offset="0.7846" stop-opacity="1"/>
+  </radialGradient>
+ </defs>
+<g id="group0" transform="matrix(1.64133067745964 0 0 1.64133067745964 23.0155498457093 10.4282316987542)" fill="none">
+  <path id="shape0" transform="translate(19.5821684543915, 0)" fill="url(#gradient0)" fill-rule="evenodd" stroke="#000000" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" d="M0 21.36C10.08 8.24 25.76 1.12 47.04 0C68.48 0 83.6726 9.28 92.6177 27.84C98.1817 59.2344 99.8617 78.3544 97.6577 85.2C92.1377 114.72 79.2 116.88 69.36 122.88C63.84 123.6 38.6177 137.04 13.6577 99.84C12.2177 97.44 6.48 72.48 11.04 38.64C4.32 29.28 4.32 29.28 0 21.36Z" sodipodi:nodetypes="cccccccc"/>
+  <path id="shape1" transform="translate(35.8545139905701, 6.1054414066145)" fill="none" stroke="#000000" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" d="M3.26548 0C-3.39093 18.56 0.129066 29.04 13.8255 31.44C34.3701 35.04 56.5455 38.16 57.9855 24.48C57.1614 10.8 43.4814 10.32 15.5055 12C15.5055 23.84 15.4422 29.9625 15.3156 30.3674" sodipodi:nodetypes="czccc"/>
+  <path id="shape2" transform="translate(30.7200019485516, 37.390298511275)" fill="none" stroke="#000000" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" krita:marker-fill-method="auto" d="M0 0C21.44 14.4469 40.4 42.4703 56.88 84.0703" sodipodi:nodetypes="cc"/>
+  <path id="shape3" transform="translate(65.5199946667915, 18.1902925132904)" fill="none" stroke="#000000" stroke-width="3.6" stroke-linecap="square" stroke-linejoin="bevel" d="M41.52 0C53.04 9.6 39.2 27.76 0 54.48" sodipodi:nodetypes="cc"/>
+  <path id="shape4" transform="translate(93.720008307364, 31.2544195438613)" fill="none" stroke="#000000" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1.92" d="M0 19.6959L0.24 0" sodipodi:nodetypes="cc"/>
+  <path id="shape5" transform="matrix(1 0 0 1.53759459668379 35.7936843205698 22.0302983097571)" fill="none" stroke="#000000" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1.92" d="M0 0C0 3.44836 0 8.37058 0 11.8189" sodipodi:nodetypes="cc"/>
+  <path id="shape6" transform="translate(10.5600000001814, 83.2302961584385)" fill="url(#gradient1)" fill-rule="evenodd" stroke="#297f00" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" d="M50.4 42.24C48.48 22.24 31.68 8.16 0 0C15.4257 20.7598 21.5853 29.0494 29.4028 34.0241C34.5996 37.3311 40.529 39.1733 50.4 42.24Z" sodipodi:nodetypes="cccc"/>
+  <path id="shape7" transform="translate(0, 119.58716572428)" fill="url(#gradient2)" fill-rule="evenodd" stroke="#297f00" stroke-width="1.284" stroke-linecap="round" stroke-linejoin="round" d="M60.48 5.64313C39.68 -2.67687 19.52 -1.79687 0 8.28313C26.16 16.2031 26.16 16.2031 60.48 5.64313Z" sodipodi:nodetypes="ccc"/>
+ </g>
+</svg>

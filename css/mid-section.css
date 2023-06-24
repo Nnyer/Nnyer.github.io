@@ -1,0 +1,103 @@
+.section2 {
+  background-color: #eeb4b3;
+  margin: 50px 0 0 0;
+}
+.section2 img {
+  pointer-events: none;
+}
+.section2-row1 {
+  display: flex;
+  align-items: center;
+}
+.section2-image {
+  height: 100%;
+  width: 50%;
+  object-fit: contain;
+}
+.section2-description {
+  margin: 0 25px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.section2-row2 {
+  display: flex;
+  margin: 100px 0;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  max-width: 100%;
+}
+.section2-row2-columns {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2-row2-images {
+  height: 100%;
+  width: 100%;
+}
+.section2-row2-description {
+  font-size: 40px;
+}
+
+/* only cats */
+.only-cats-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #502274;
+  margin-top: 50px;
+}
+.ocats11,
+.ocats-img {
+  flex: 1;
+  height: 250px;
+  padding: 6px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.ocats-img:hover
+{
+  transform: rotateZ(-5deg);
+  transition: 0.5s;
+}
+.ocats2 {
+  transition: 0.5s;
+}
+.ocats2:hover {
+  transform: rotateZ(5deg);
+  transition: 0.5s;
+}
+.ocats3 {
+  transition: 1.5s;
+}
+.ocats3:hover,
+.ocats4:hover {
+  transform: rotateZ(-5deg);
+  transition: 1.5s;
+}
+.ocats3:active {
+  transform: rotateZ(-360deg);
+  transition: 1.5s;
+}
+.ocats4:active {
+  opacity: 0;
+  transition: 1.5s;
+}
+@media (max-width: 500px) {
+  .ocats11{
+    height: 150px;
+    flex: 1;
+    object-fit: cover;
+  }
+}
+@media (max-width: 300px) {
+  .ocats-img,
+  .ocats-img2 {
+    height: 100px;
+  }
+}

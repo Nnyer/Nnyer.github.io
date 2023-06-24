@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="240pt"
+    height="240pt"
+    viewBox="0 0 240 240">
+<defs>
+  <linearGradient id="gradient0" gradientUnits="objectBoundingBox" x1="0.519032987848122" y1="-0.0217868467298592" x2="0.566037704182261" y2="1.07572555728679" spreadMethod="repeat">
+   <stop stop-color="#ff0000" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient id="gradient1" gradientUnits="objectBoundingBox" x1="0.486205877311159" y1="-0.119175225331778" x2="0.495699413291621" y2="1.5565426008503" spreadMethod="repeat">
+   <stop stop-color="#ff0000" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="1"/>
+  </linearGradient>
+ </defs>
+<path id="shape0" transform="matrix(3.33491545210759 0 0 3.33491545210759 57.4428664322183 28.0925498729733)" fill="url(#gradient0)" fill-rule="evenodd" stroke="#d00000" stroke-width="0.4056" stroke-linecap="square" stroke-linejoin="bevel" d="M9.11297 0.269999C3.56953 0.768583 0.629534 2.72858 0.292966 6.15C-0.0436029 9.57142 -0.0901757 21.0777 0.153247 40.6689L23.303 62.055C26.663 62.905 28.453 61.67 28.673 58.35C27.953 55.43 26.553 49.78 24.473 41.4C24.593 41.26 24.783 41.19 25.043 41.19C25.323 41.21 32.763 41.22 47.363 41.22C51.924 39.9758 53.9924 36.4687 53.5681 30.6987C52.861 28.7471 48.9026 19.6542 41.693 3.42C40.213 1.46 37.973 0.32 34.973 0C31.253 0 31.253 0 9.11297 0.269999Z" sodipodi:nodetypes="czcccccccccc"/><path id="shape1" transform="matrix(3.33491545210759 0 0 3.33491545210759 3.73142217101768 28.2801257111477)" fill="url(#gradient1)" fill-rule="evenodd" stroke="#d00000" stroke-width="0.4056" stroke-linecap="square" stroke-linejoin="bevel" d="M0.056251 0.00375C2.92625 -0.00125 6.03125 -0.00125 9.37125 0.00375L9.37874 41.2837L0 41.2837C0 41.2837 0.0187503 27.5237 0.056251 0.00375Z" sodipodi:nodetypes="ccccc"/>
+</svg>

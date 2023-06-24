@@ -1,0 +1,46 @@
+body {
+  background-color: #2f242c;
+  color: #2f242c;
+  margin: 0;
+  padding-bottom: 100px;
+  font-family: Blackfriday, Arial;
+
+}
+button {
+  font-family: Blackfriday, Arial;
+  color: #2f242c;
+}
+.link-modifier {
+  text-decoration: none;
+  color: #2f242c;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.span--highlight {
+  background-color: #a42cd699;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.secret-button-container {
+  position: relative;
+}
+
+.secret-button {
+  position: absolute;
+  opacity: 0;
+}
+/*  
+.secret-button:hover {
+  opacity: 1;
+} */
+/* 
+#502274
+#c179b9 border
+#a42cd6 intense violet
+#eeb4b3 bright
+ */
+
+
